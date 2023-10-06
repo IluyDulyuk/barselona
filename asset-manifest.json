@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/barselona/static/css/main.a49cbcef.css",
+    "main.js": "/barselona/static/js/main.d98cda5b.js",
+    "static/media/discont__bg.jpg": "/barselona/static/media/discont__bg.7aa3e570d7f14821edd5.jpg",
+    "static/media/gallary__slide-2.jpg": "/barselona/static/media/gallary__slide-2.88335c8328bc4f53045c.jpg",
+    "static/media/infrastucture-tabs__image.jpg": "/barselona/static/media/infrastucture-tabs__image.e50edffd487bba1c0137.jpg",
+    "static/media/gallary__slide-1.jpg": "/barselona/static/media/gallary__slide-1.1aef9ffc6478e24e2266.jpg",
+    "static/media/gallary__slide-3.jpg": "/barselona/static/media/gallary__slide-3.e9c664ae6003f12edc11.jpg",
+    "static/media/place__image--big.jpg": "/barselona/static/media/place__image--big.b25e009d596543176d3d.jpg",
+    "static/media/offer__bg.jpg": "/barselona/static/media/offer__bg.35807d3d0efc032e8d4e.jpg",
+    "static/media/investor__bg.jpg": "/barselona/static/media/investor__bg.1780e74dbe3eefb4d3b4.jpg",
+    "static/media/choice__image.jpg": "/barselona/static/media/choice__image.300c11732584740b40eb.jpg",
+    "static/media/place__image--min-2.jpg": "/barselona/static/media/place__image--min-2.ff4aa6faeab936e694b0.jpg",
+    "static/media/place__image--min-3.jpg": "/barselona/static/media/place__image--min-3.795e62f6ce8fd7a16a0e.jpg",
+    "static/media/place__image--min-1.jpg": "/barselona/static/media/place__image--min-1.b319260ab58d52a6079f.jpg",
+    "index.html": "/barselona/index.html",
+    "static/media/advatagesItem__icon.svg": "/barselona/static/media/advatagesItem__icon.17e47cd26620ceae8ec175ca863efe5b.svg",
+    "static/media/select-button.svg": "/barselona/static/media/select-button.63a6549d068a8a1071e50f08bffaedd6.svg",
+    "main.a49cbcef.css.map": "/barselona/static/css/main.a49cbcef.css.map",
+    "main.d98cda5b.js.map": "/barselona/static/js/main.d98cda5b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a49cbcef.css",
+    "static/js/main.d98cda5b.js"
+  ]
+}
