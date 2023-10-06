@@ -1,0 +1,70 @@
+@import '../app/app.scss';
+
+.offer {
+    padding-bottom: calc(110px - 88px);
+    color: $t-white;
+
+    @media screen and (max-width: 1370px) {
+        padding-bottom: calc(60px - 4.8vw);
+    }
+
+    &__bg {
+        min-height: 560px;
+        background: url('./images/offer__bg.jpg') center bottom / cover no-repeat;
+
+        @media screen and (max-width: calc(916px + 40px)) {
+            min-height: 300px;
+        }
+    }
+
+    &__wrapper {
+        transform: translateY(-88px);
+
+        @media screen and (max-width: 1370px) {
+            transform: translateY(-4.8vw);
+        }
+    }
+
+    &__title {
+        font-family: $roboto;
+        font-size: 150px;
+        font-weight: 600;
+
+        @media screen and (max-width: 1370px) {
+            font-size: 11vw;
+        }
+    }
+
+    &__subtitle {
+        font-size: 50px;
+        font-weight: 600;
+        color: $yellow;
+        text-align: center;
+        margin-bottom: 15px;
+
+        @media screen and (max-width: 1370px) {
+            text-align: left;
+            font-size: 5vw;
+            margin-bottom: 20px;
+        }
+    }
+
+    &__text {
+        display: flex;
+        justify-content: flex-end;
+
+        @media screen and (max-width: 1370px) {
+            justify-content: flex-start;
+        }
+
+        p {
+            font-size: 40px;
+            line-height: 48px;
+
+            @media screen and (max-width: 1370px) {
+                font-size: 4vw;
+                line-height: calc(4vw + 6px)
+            }
+        }
+    }
+}

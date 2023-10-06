@@ -1,0 +1,65 @@
+@import '../app/app.scss';
+
+.choice {
+    padding: 115px 0px 110px;
+    background: #E7EAEF;
+
+    @media screen and (max-width: calc(1370px)) {
+        padding: 60px 0px;
+    }
+
+    &__wrapper {
+        margin-bottom: 80px;
+
+        @media screen and (max-width: 1370px) {
+            margin-bottom: 40px;
+        }
+    }
+
+    &__list {
+
+        @media screen and (max-width: calc(1370px)) {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    }
+
+    &__title {
+        margin-bottom: 80px;
+
+        @media screen and (max-width: calc(1370px)) {
+            margin-bottom: 20px;
+        }
+    }
+
+    &__image {
+        padding-top: 104px;
+        width: 100%;
+
+        @media screen and (max-width: calc(1370px)) {
+            padding-top: 60px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .yellow-button {
+        color: $t-black;
+
+        @media screen and (max-width: 1370px) {
+            font-size: inherit;
+            padding: 2.5vw 4.5vw;
+            border-radius: 4vw;
+            font-size: 2vw;
+        }
+    }
+}

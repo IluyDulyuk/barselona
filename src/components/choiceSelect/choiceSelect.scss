@@ -1,0 +1,39 @@
+@import '../app/app.scss';
+
+.choice-select {
+    background: transparent;
+    width: 210px;
+    padding: 40px 0px 8px;
+    border-bottom: 1px solid $t-black;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif !important;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: $t-black;
+
+    @media screen and (max-width: 1370px) {
+        width: 100%;
+    }
+
+    &__wrapper {
+        width: 210px;
+        position: relative;
+
+        @media screen and (max-width: 1370px) {
+            width: calc((100% - 20px) / 2);
+        }
+
+        &:after {
+            content: url('../selectButton/images/select-button.svg');
+            position: absolute;
+            width: 11px;
+            height: 5px;
+            bottom: 28px;
+            right: 16px;
+        }
+    }
+}

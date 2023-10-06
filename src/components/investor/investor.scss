@@ -1,0 +1,44 @@
+@import '../app/app.scss';
+
+.investor {
+    padding: 70px 0px;
+    background: url('./images/investor__bg.jpg') center top / cover no-repeat;
+
+    @media screen and (max-width: 1370px) {
+        padding: 10vw 0;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 127px;
+
+        @media screen and (max-width: 1370px) {
+            gap: 20vw;
+        }
+    }
+
+    &__title {
+        color: $t-white;
+        font-size: 40px;
+        font-weight: 600;
+
+        @media screen and (max-width: 1370px) {
+            font-size: 5vw;
+        }
+    }
+
+    .transparent-button {
+        font-size: 25px;
+        padding: 24px 75px;
+        border-radius: 50px;
+
+        @media screen and (max-width: 1370px) {
+            font-size: inherit;
+            padding: 2.5vw 4.5vw;
+            border-radius: 4vw;
+            font-size: 2vw;
+        }
+    }
+}

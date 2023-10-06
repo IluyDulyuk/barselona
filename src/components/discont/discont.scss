@@ -1,0 +1,47 @@
+@import '../app/app.scss';
+
+.discont {
+    padding: 100px 0px;
+    background: url('./images/discont__bg.jpg') center top / cover no-repeat;
+    color: $t-white;
+
+    @media screen and (max-width: 1370px) {
+        padding: 10vw 0;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 33px;
+
+        @media screen and (max-width: 1370px) {
+            gap: 20px;
+        }
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 48px;
+
+        @media screen and (max-width: 1370px) {
+            font-size: 5vw;
+            line-height: calc(5vw + 8px);
+        }
+    }
+
+    .transparent-button {
+        font-size: 25px;
+        padding: 24px 75px;
+        border-radius: 50px;
+
+        @media screen and (max-width: 1370px) {
+            font-size: inherit;
+            padding: 2.5vw 4.5vw;
+            border-radius: 4vw;
+            font-size: 2vw;
+        }
+    }
+}

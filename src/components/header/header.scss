@@ -1,0 +1,65 @@
+@import '../app/app.scss';
+
+.header {
+    padding-top: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    @media screen and (max-width: calc(1370px)) {
+        padding-top: 20px;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 44px;
+
+        &:nth-child(2) {
+            gap: 24px;
+        }
+    }
+
+    &__link {
+        font-size: 16px;
+        color: $t-white;
+        transition: 0.3s;
+        cursor: pointer;
+
+        @media screen and (max-width: calc(1370px)) {
+            font-size: 14px;
+        }
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+
+    &__desctop-view {
+
+        @media screen and (max-width: calc(1370px)) {
+            display: none;
+        }
+    }
+
+    .select-button {
+
+        @media screen and (max-width: calc(1370px)) {
+
+            span {
+                color: $t-black;
+
+                &:last-child {
+                    display: none;
+                }
+            }
+        }
+    }
+}

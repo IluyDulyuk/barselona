@@ -1,0 +1,20 @@
+.player {
+    padding: 110px 0px;
+
+    @media screen and (max-width: 1370px) {
+        padding: 60px 0px;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+
+        @media screen and (max-width: 1370px) {
+
+            iframe {
+                width: 100% !important;
+                height: calc((100vw - 40px) * 0.55);
+            }
+        }
+    }
+}

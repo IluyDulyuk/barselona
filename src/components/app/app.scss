@@ -1,0 +1,132 @@
+// Null
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+*,*:befor,*:after{
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjast:100%;
+	-moz-text-size-adjast:100%;
+	-webkit-text-size-adjast:100%;
+}
+input,button,textarea{font-family: inherit;}
+input::ms-clear{display: none;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top; pointer-events: none;}
+h1,h2,h3,h4,h5,h6{font-family: inherit;font-weight: 400;}
+
+input{-webkit-appearance: none;-webkit-border-radius: 0;}
+
+ul {
+	margin-bottom: 0;
+}
+
+
+// Fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@400;500&display=swap');
+
+
+// Variables
+
+$t-black: #181834;
+$t-red: #BF032B;
+$t-white: #fff;
+$yellow: #E8BF01;
+$roboto: 'Roboto', sans-serif;
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: $t-black;
+    background: $t-black;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 1330px;
+    margin: 0 auto;
+
+    @media screen and (max-width: calc(1370px)) {
+        width: calc(100% - 40px);
+    }
+}
+
+button {
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    text-transform: uppercase;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.yellow-button {
+    font-size: 25px;
+    background: $yellow;
+    padding: 35px 100px;
+    border-radius: 50px;
+}
+
+.wrapper {
+    display: flex;
+
+    @media screen and (max-width: calc(1370px)) {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.content {
+    width: 50%;
+
+    @media screen and (max-width: calc(1370px)) {
+        width: 100%;
+    }
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 400;
+    color: $t-red;
+    font-family: $roboto;
+    line-height: 68px;
+
+    @media screen and (max-width: calc(1370px)) {
+        font-size: 5vw;
+        line-height: normal;
+    }
+}
+
+.text {
+    font-size: 18px;
+    color: $t-white;
+    line-height: 24px;
+    margin-bottom: 35px;
+
+    @media screen and (max-width: calc(1370px)) {
+        font-size: 3vw;
+        line-height: calc(3vw + 6px);
+        margin-bottom: 3vw;
+    }
+}

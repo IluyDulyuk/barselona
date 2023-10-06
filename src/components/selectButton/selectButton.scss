@@ -1,0 +1,21 @@
+@import '../app/app.scss';
+
+.select-button {
+    text-transform: uppercase;
+    padding: 15px 30px;
+    background: $yellow;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+    color: $t-black;
+
+
+    span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

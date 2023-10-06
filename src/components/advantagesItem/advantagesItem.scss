@@ -1,0 +1,61 @@
+@import '../app/app.scss';
+
+.advantages-item {
+    cursor: pointer;
+    width: 100%;
+    padding: 25px;
+    border-top: 1px solid $t-white;
+    color: $t-white;
+
+    @media screen and (max-width: 1370px) {
+        padding: 2vw;
+        width: calc(100% - 2vw * 2);
+    }
+
+    &.active {
+
+        .advantages-item__text {
+            display: block;
+        }
+
+        img {
+            transform: rotate(90deg);
+        }
+    }
+
+    &:last-child {
+        border-bottom: 1px solid $t-white;
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__name {
+        font-weight: 600;
+
+        @media screen and (max-width: 1370px) {
+            font-size: 3vw;
+            line-height: calc(3vw + 6px);
+        }
+    }
+
+    &__text {
+        font-weight: 400;
+        text-transform: lowercase;
+        margin-top: 25px;
+        display: none;
+
+        @media screen and (max-width: 1370px) {
+            line-height: 24px;
+            margin-top: 2vw;
+            font-size: 2.5vw;
+        }
+    }
+
+    img {
+        transition: 0.3s;
+    }
+}

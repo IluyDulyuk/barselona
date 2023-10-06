@@ -1,0 +1,63 @@
+@import '../app/app.scss';
+
+.about {
+    padding-bottom: 80px;
+
+    @media screen and (max-width: 1370px) {
+        padding-bottom: 60px;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+
+        @media screen and (max-width: 1370px) {
+            justify-content: space-between;
+        }
+    }
+
+    .about-item {
+        width: 210px;
+        color: $t-white;
+        margin-right: 52px;
+        margin-bottom: 30px;
+
+        @media screen and (max-width: 1370px) {
+            width: 25%;
+            margin-right: 0;
+            margin-bottom: 0;
+        }
+
+        &__value {
+            font-size: 60px;
+            font-weight: 400;
+            font-family: $roboto;
+            line-height: 44px;
+            border-bottom: 1px solid $t-white;
+            margin-bottom: 10px;
+
+            @media screen and (max-width: 1370px) {
+                font-size: 5vw;
+                line-height: calc(5vw + 6px);
+                margin-bottom: 5px;
+            }
+
+            span {
+                font-size: 16px;
+                text-transform: lowercase;
+
+                @media screen and (max-width: 1370px) {
+                    font-size: 2vw;
+                }
+            }
+        }
+
+        &__name {
+            font-size: 16px;
+
+            @media screen and (max-width: 1370px) {
+                font-size: 2vw;
+            }
+        }
+    }
+}
