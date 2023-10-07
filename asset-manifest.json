@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/barselona/static/css/main.a49cbcef.css",
+    "main.css": "/barselona/static/css/main.137c6f40.css",
     "main.js": "/barselona/static/js/main.d98cda5b.js",
     "static/media/discont__bg.jpg": "/barselona/static/media/discont__bg.7aa3e570d7f14821edd5.jpg",
     "static/media/gallary__slide-2.jpg": "/barselona/static/media/gallary__slide-2.88335c8328bc4f53045c.jpg",
@@ -17,11 +17,11 @@
     "index.html": "/barselona/index.html",
     "static/media/advatagesItem__icon.svg": "/barselona/static/media/advatagesItem__icon.17e47cd26620ceae8ec175ca863efe5b.svg",
     "static/media/select-button.svg": "/barselona/static/media/select-button.63a6549d068a8a1071e50f08bffaedd6.svg",
-    "main.a49cbcef.css.map": "/barselona/static/css/main.a49cbcef.css.map",
+    "main.137c6f40.css.map": "/barselona/static/css/main.137c6f40.css.map",
     "main.d98cda5b.js.map": "/barselona/static/js/main.d98cda5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a49cbcef.css",
+    "static/css/main.137c6f40.css",
     "static/js/main.d98cda5b.js"
   ]
 }
